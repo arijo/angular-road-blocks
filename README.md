@@ -1,6 +1,8 @@
 # SETUP & INSTALL
 
-mkdir app && cd app
+git clone https://github.com/arijo/angular-road-works.git
+
+cd angular-road-works
 
 npm install
 
