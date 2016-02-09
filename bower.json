@@ -1,0 +1,11 @@
+{
+  "name": "rbi",
+  "private": "true",
+  "dependencies": {
+    "jquery": "2.2.0",
+    "angular": "~1.3.20",
+    "angular-ui-router": "0.2.17",
+    "bootstrap": "",
+    "angular-bootstrap": ""
+  }
+}

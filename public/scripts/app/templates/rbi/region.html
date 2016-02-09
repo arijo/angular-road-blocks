@@ -1,0 +1,17 @@
+<div class="region filter panel panel-default">
+  <div class="panel-heading"><h4>Authority Filter Placeholder</h4></div>
+  <div class="panel-body">
+    <input type="text" ng-model="region.matches" 
+      uib-typeahead="r for r in region.getRegion($viewValue)" 
+      typeahead-on-select="region.select($item, $model, $label, $event)"
+      typeahead-popup-template-url="scripts/app/templates/uib/typeahead-popup.html"
+      typeahead-template-url="scripts/app/templates/uib/typeahead-match.html"
+      typeahead-loading="loading" 
+      typeahead-no-results="noResults" class="form-control">
+    <i ng-show="loading" class="glyphicon glyphicon-refresh"></i>
+    <div ng-show="noResults">
+      <i class="glyphicon glyphicon-remove"></i> No Results Found
+    </div>
+  </div>
+</div>
+

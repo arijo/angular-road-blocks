@@ -1,0 +1,26 @@
+<div class="work filter panel panel-default">
+  <div class="panel-heading"><h4>Works Filter Placeholder</h4></div>
+  <div class="panel-body">
+    <table class="table">
+      <thead>
+        <th>Road</th>
+        <th>Location</th>
+        <th>Region</th>
+        <th>Closure Type</th>
+        <th>Expected Delay</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr ng-repeat="entry in work.entries">
+          <td>{{entry.road}}</td>
+          <td>{{entry.location}}</td>
+          <td>{{entry.local_authority}}</td>
+          <td>{{entry.closure_type}}</td>
+          <td>{{entry.expected_delay}}</td>
+          <td>{{entry.description}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
